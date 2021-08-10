@@ -1,0 +1,49 @@
+.container{
+    width:250px;
+    margin:100px auto;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.input-box{
+    width:100%;
+    font-size: 20px;
+}
+#input-item{
+    font-size: 20px;
+    font-weight: bolder;
+    width:90%;
+    margin:0;
+    height:3rem;
+    margin:20px auto 0px;
+    display: block;
+    border-radius: 8px;
+    border:3px solid gray
+}
+.button{
+    padding:20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3,70px);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.btn{
+    border:1px solid grey;
+    box-shadow: 2px 2px 3px grey;
+    text-align: center;
+    border-radius: 8px;
+}
+.btn button{
+    padding:3px 16px;
+    margin:5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    border:0px solid white;
+    background-color: white;
+}
+.width{
+    width:100%;
+}
