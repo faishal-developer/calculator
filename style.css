@@ -44,6 +44,10 @@
     border:0px solid white;
     background-color: white;
 }
+.btn:active{
+    box-shadow: 0 0 0 gray;
+    border-radius: 7px;
+}
 .width{
     width:100%;
 }
