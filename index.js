@@ -13,6 +13,14 @@ btnArr.forEach((v,i)=>{
   })
 })
 
+input[0].addEventListener('keyup',function(e){
+   if(e.key === 'Enter' || e.key==='='){
+    inputValue = calculate(e.target.value)
+    input[0].value = inputValue
+   } 
+})
+
+
 
 function calculate(str) {
     let strToNumber=str.match(/\d+(\.)?(\d+)?/g)
